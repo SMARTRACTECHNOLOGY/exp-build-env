@@ -8,8 +8,6 @@ node {
   def helper = new net.smartcosmos.helper()
   def utils = new BuildUtil(env, steps)
 
-  deleteDir()
-
   stage("Checkout") {
     checkout scm
   }
