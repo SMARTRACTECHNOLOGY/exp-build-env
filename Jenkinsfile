@@ -2,7 +2,7 @@
 
 import net.smartcosmos.BuildUtil
 
-@Library('smartcosmos@v1.0.0')
+@Library('smartcosmos@v1.0.0') _
 
 node {
   def helper = new net.smartcosmos.helper()
